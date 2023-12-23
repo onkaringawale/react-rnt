@@ -1,38 +1,23 @@
-.App {
-  text-align: center;
+.navigationMenu{
+  position:sticky;
+  top: 0;
+  background-color: aquamarine;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#root table > tbody > tr th{
+  text-wrap: nowrap;
+  width:0%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.blurbDataContainer{
+  height: 100px;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.card-body{
+  height: 300px;
 }
-
-.App-link {
-  color: #61dafb;
+:is(#setBlurbData) input, textarea{
+ width: 100%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cursorPointer{
+  cursor: pointer;
 }
